@@ -1,0 +1,16 @@
+Script started on 2025-09-25 23:41:56-04:00 [TERM="xterm-256color" TTY="/dev/pts/10" COLUMNS="160" LINES="17"]
+]0;ajmarkenson@ccc-app-p-u31:~/CS3013/Project3[?2004h[ajmarkenson@ccc-app-p-u31 Project3]$ 
+[?2004l]0;ajmarkenson@ccc-app-p-u31:~/CS3013/Project3[?2004h[ajmarkenson@ccc-app-p-u31 Project3]$ ./addem 10 100
+[?2004lSemaphores initialized
+All messages received
+All threads joined
+Total sum = 5050
+]0;ajmarkenson@ccc-app-p-u31:~/CS3013/Project3[?2004h[ajmarkenson@ccc-app-p-u31 Project3]$ ./addem 5 150
+[?2004lSemaphores initialized
+All messages received
+All threads joined
+Total sum = 11325
+]0;ajmarkenson@ccc-app-p-u31:~/CS3013/Project3[?2004h[ajmarkenson@ccc-app-p-u31 Project3]$ exit
+[?2004lexit
+
+Script done on 2025-09-25 23:42:35-04:00 [COMMAND_EXIT_CODE="0"]

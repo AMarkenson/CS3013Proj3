@@ -1,0 +1,191 @@
+Script started on 2025-09-25 23:43:04-04:00 [TERM="xterm-256color" TTY="/dev/pts/10" COLUMNS="160" LINES="17"]
+]0;ajmarkenson@ccc-app-p-u31:~/CS3013/Project3[?2004h[ajmarkenson@ccc-app-p-u31 Project3]$ ./life 3 lifetest.txt 10 y
+[?2004lNumber of threads: 3
+Grid dimensions: 3 rows, 4 columns
+Semaphores initialized
+Initial Generation:
+Generation 0:
+0 1 0 0 
+0 0 1 0 
+1 0 0 1 
+Message type 5 received from thread 1
+Message type 5 received from thread 3
+Message type 4 received from thread 2
+Generation 1:
+0 0 0 0 
+0 1 1 0 
+0 0 0 0 
+Message type 6 received from thread 1
+Message type 5 received from thread 2
+Message type 6 received from thread 3
+Generation 2:
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+Message type 6 received from thread 1
+Message type 6 received from thread 2
+All threads reported NOCHANGE. Ending simulation early.
+Generation 3:
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+All threads have completed processing.
+]0;ajmarkenson@ccc-app-p-u31:~/CS3013/Project3[?2004h[ajmarkenson@ccc-app-p-u31 Project3]$ ./life 3 lifetest2.txt 20 y
+[?2004lNumber of threads: 3
+Grid dimensions: 5 rows, 5 columns
+Semaphores initialized
+Initial Generation:
+Generation 0:
+0 0 0 0 0 
+0 1 1 0 0 
+1 1 0 0 0 
+0 0 0 1 0 
+0 0 1 0 0 
+Message type 6 received from thread 1
+Message type 4 received from thread 2
+Message type 4 received from thread 3
+Generation 1:
+0 0 0 0 0 
+1 1 1 0 0 
+1 1 0 0 0 
+0 1 1 0 0 
+0 0 0 0 0 
+Message type 4 received from thread 1
+Message type 4 received from thread 2
+Message type 4 received from thread 3
+Generation 2:
+0 1 0 0 0 
+1 0 1 0 0 
+0 0 0 0 0 
+1 1 1 0 0 
+0 0 0 0 0 
+Message type 6 received from thread 1
+Message type 4 received from thread 2
+Message type 4 received from thread 3
+Generation 3:
+0 1 0 0 0 
+0 1 0 0 0 
+1 0 1 0 0 
+0 1 0 0 0 
+0 1 0 0 0 
+Message type 5 received from thread 1
+Message type 4 received from thread 3
+Message type 4 received from thread 2
+Generation 4:
+0 0 0 0 0 
+1 1 1 0 0 
+1 0 1 0 0 
+1 1 1 0 0 
+0 0 0 0 0 
+Message type 4 received from thread 1
+Message type 4 received from thread 3
+Message type 4 received from thread 2
+Generation 5:
+0 1 0 0 0 
+1 0 1 0 0 
+0 0 0 1 0 
+1 0 1 0 0 
+0 1 0 0 0 
+Message type 4 received from thread 3
+Message type 6 received from thread 1
+Message type 4 received from thread 2
+Generation 6:
+0 1 0 0 0 
+0 1 1 0 0 
+0 0 1 1 0 
+0 1 1 0 0 
+0 1 0 0 0 
+Message type 4 received from thread 3
+Message type 4 received from thread 1
+Message type 4 received from thread 2
+Generation 7:
+0 1 1 0 0 
+0 1 0 1 0 
+0 0 0 1 0 
+0 1 0 1 0 
+0 1 1 0 0 
+Message type 6 received from thread 1
+Message type 4 received from thread 3
+Message type 6 received from thread 2
+Generation 8:
+0 1 1 0 0 
+0 1 0 1 0 
+0 0 0 1 1 
+0 1 0 1 0 
+0 1 1 0 0 
+Message type 6 received from thread 1
+Message type 4 received from thread 3
+Message type 4 received from thread 2
+Generation 9:
+0 1 1 0 0 
+0 1 0 1 1 
+0 0 0 1 1 
+0 1 0 1 1 
+0 1 1 0 0 
+Message type 4 received from thread 1
+Message type 4 received from thread 3
+Message type 4 received from thread 2
+Generation 10:
+0 1 1 1 0 
+0 1 0 0 1 
+0 0 0 0 0 
+0 1 0 0 1 
+0 1 1 1 0 
+Message type 4 received from thread 3
+Message type 6 received from thread 1
+Message type 4 received from thread 2
+Generation 11:
+0 1 1 1 0 
+0 1 0 1 0 
+0 0 0 0 0 
+0 1 0 1 0 
+0 1 1 1 0 
+Message type 6 received from thread 2
+Message type 4 received from thread 1
+Message type 4 received from thread 3
+Generation 12:
+0 1 0 1 0 
+0 1 0 1 0 
+0 0 0 0 0 
+0 1 0 1 0 
+0 1 0 1 0 
+Message type 5 received from thread 1
+Message type 5 received from thread 2
+Message type 5 received from thread 3
+All threads reported ALLDEAD. Ending simulation early.
+Generation 13:
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+All threads have completed processing.
+]0;ajmarkenson@ccc-app-p-u31:~/CS3013/Project3[?2004h[ajmarkenson@ccc-app-p-u31 Project3]$ ./life 2 lifetest3.txt 10 y
+[?2004lNumber of threads: 2
+Grid dimensions: 4 rows, 4 columns
+Semaphores initialized
+Initial Generation:
+Generation 0:
+0 0 0 0 
+0 0 1 0 
+0 1 1 0 
+0 0 0 0 
+Message type 4 received from thread 1
+Message type 6 received from thread 2
+Generation 1:
+0 0 0 0 
+0 1 1 0 
+0 1 1 0 
+0 0 0 0 
+Message type 6 received from thread 1
+All threads reported NOCHANGE. Ending simulation early.
+Generation 2:
+0 0 0 0 
+0 1 1 0 
+0 1 1 0 
+0 0 0 0 
+All threads have completed processing.
+]0;ajmarkenson@ccc-app-p-u31:~/CS3013/Project3[?2004h[ajmarkenson@ccc-app-p-u31 Project3]$ exit
+[?2004lexit
+
+Script done on 2025-09-25 23:44:27-04:00 [COMMAND_EXIT_CODE="0"]
