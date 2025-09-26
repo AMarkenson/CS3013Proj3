@@ -135,8 +135,8 @@ void *life(void *arg) {
         }
 
         myMsg.type = GENDONE;
-        if (allDead) myMsg.type = ALLDEAD;
-        else if (noChange) myMsg.type = NOCHANGE;
+        if (noChange) myMsg.type = NOCHANGE;
+        else if (allDead) myMsg.type = ALLDEAD;
         allDead = true; // Reset for next generation
         noChange = true; // Reset for next generation
 
@@ -281,6 +281,7 @@ int main(int argc, char* argv[]) {
         msg replyMsg;
         for (int threadsDone = 0; threadsDone < numThreads;) {
             recvMsg(0, &replyMsg);
+            cout << "Message type " << replyMsg.type << " received from thread " << replyMsg.iSender << endl;
             genReplies[replyMsg.iSender - 1] = replyMsg.type;
             if (replyMsg.type == GENDONE || replyMsg.type == ALLDEAD || replyMsg.type == NOCHANGE) {
                 threadsDone++;
